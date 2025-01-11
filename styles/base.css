@@ -1,0 +1,57 @@
+:root{
+    --primarycolor: #926666;
+    --secondarycolor: #861607;
+    --subcolor: #17033a;
+}
+
+main{
+    background-color: var(--primarycolor);
+}
+
+h1, h2{
+    background-color: var(--subcolor);
+    color: var(--secondarycolor);
+    width: 70;
+    margin:10px;
+}
+
+textarea{
+    width: 100%;
+}
+
+header{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    text-align: center;
+    background-color: var(--primarycolor);
+    color: var(--secondarycolor);
+}
+
+header nav{
+    display: flex;
+    flex: 1 1 25%;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--subcolor);
+
+}
+
+nav a{
+    margin: 0 10%;
+    color: var(--secondarycolor);
+}
+
+section img {
+    max-width: 40%;
+    height: auto;
+}
+
+main {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+p{
+    margin: 15px;
+}
