@@ -37,7 +37,7 @@ header nav{
 
 }
 
-nav a{
+nav a :hover{
     margin: 0 10%;
     color: var(--secondarycolor);
 }
