@@ -13,6 +13,7 @@ h1, h2{
     color: var(--secondarycolor);
     width: 70;
     margin:10px;
+    font-family: 'graduate';
 }
 
 textarea{
