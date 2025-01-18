@@ -1,0 +1,97 @@
+:root{
+    --primarycolor: #926666;
+    --secondarycolor: #861607;
+    --subcolor: #17033a;
+}
+
+main{
+    background-color: var(--primarycolor);
+    min-width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+h1, h2{
+    background-color: var(--subcolor);
+    color: var(--secondarycolor);
+    margin:10px;
+    font-family: 'graduate';
+}
+
+img{
+    max-width: 375px;
+}
+
+h2{
+    width: 100%;
+}
+
+textarea{
+    width: 100%;
+}
+
+header{
+    display: flex;
+    background-color: var(--subcolor);
+    color: var(--secondarycolor);
+
+}
+
+header nav{
+    display: flex;
+    flex: 1 1 25%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+nav a:hover{
+    margin: 0 10%;
+    color: var(--secondarycolor);
+}
+
+p{
+    margin: 15px;
+}
+
+#menu{
+    display:block;
+    font-size: 2rem;
+    font-weight: 700;
+    text-decoration: none;
+    padding: .5rem .75rem;
+    color: var(--secondarycolor);
+}
+
+#menu::before{
+    content: "≡";
+}
+
+.navigation{
+    list-style: none;
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+.navigation li{
+    display: none;
+}
+
+.navigation a{
+    color: var(--secondarycolor);
+}
+
+.navigation a:hover{
+    text-decoration: underline double;
+    color: var(--secondarycolor);
+}
+
+.show li{
+    display: block;
+}
+
+#menu.show::before{
+    content: "X";
+}
