@@ -32,7 +32,8 @@ textarea{
 }
 
 header{
-    display: flex;
+    display: grid ;
+    grid-template-columns: 3fr 1fr;
     background-color: var(--subcolor);
     color: var(--secondarycolor);
 
