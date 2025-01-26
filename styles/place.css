@@ -26,7 +26,9 @@ img{
 footer{
     margin-top: 50%;
 }
-
+h2 img{
+    max-width: 40px;
+}
 
 textarea{
     width: 100%;
