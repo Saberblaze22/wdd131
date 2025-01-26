@@ -1,0 +1,42 @@
+:root{
+    --primarycolor: #926666;
+    --secondarycolor: #861607;
+    --subcolor: #e2cc4e;
+}
+
+main{
+    background-color: var(--primarycolor);
+    min-width: 200px;
+    justify-content: center;
+}
+
+h1, h2{
+    background-color: var(--primarycolor);
+    color: var(--secondarycolor);
+    font-family: 'graduate';
+    block-size: auto;
+    margin:0%
+}
+
+
+img{
+    width: 100%;
+    height: auto;
+}
+footer{
+    margin-top: 50%;
+}
+
+
+textarea{
+    width: 100%;
+}
+
+header{
+    background-color: var(--subcolor);
+    color: var(--secondarycolor);
+}
+
+p{
+    margin: 15px;
+}

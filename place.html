@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>weather of new mexico</title>
+        <meta name="description" content="weather. ">
+        <meta name="data"  content="weather">
+        <link rel="stylesheet" href="styles/place.css">
+        <link rel="stylesheet" href="styles/place_large.css">
+        <script src="scripts/place.js" defer></script>
+        <script src="scripts/getdates.js"defer></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Graduate&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <h1>weather of new mexico</h1>
+        </header>
+        <main>
+            <picture>
+                <source srcset="images/new_mexico_wide.jpg" media="(min-width: 600px)"> 
+                <img src="images/location_1.jpg" alt="500">
+            </picture>
+            <section class="data">
+                <h2>data</h2>
+                <ul>
+                    <li>Area: 121,590 square miles</li>
+                    <li>Population: 2.13 Million</li>
+                    <li>Capital: Santa Fei</li>
+                    <li>languages: Enlish, Spanish</li>
+                    <li>Currency: USD</li>
+                    <li>Time Zone: Mountain Standard</li>
+                    <li>Calling Code: +1</li>
+                    <li>Internet TLD: .us</li>
+                </ul>
+            </section>
+            <section class="weather">
+                <h2>weather</h2>
+                <ul>
+                    <li>Temperature: 41°F</li>
+                    <li>Conditions: Cloudy</li>
+                    <li>Wind: 6MPH</li>
+                    <li id="windchill"></li>
+                </ul>
+            </section>
+        </main>
+        <footer>
+            <p>©<span id="year"></span>, Dylan Winters, New Mexico</p>
+            <p>last modified <span id="lastmodified"></span></p>
+        </footer>
+    </body>
+</html>
