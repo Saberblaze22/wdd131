@@ -1,0 +1,20 @@
+:root{
+    --backgroundcolor: rgba(26, 26, 228, 0.671);
+    --subcolor: rgb(247, 231, 90);
+    --linkcolor: rgb(156, 9, 9);
+}
+
+main{
+    background-color: var(--backgroundcolor);
+}
+
+h1, h2, h3{
+    background-color: var(--backgroundcolor);
+    color: var(--subcolor);
+    margin:10px;
+    font-family: 'graduate';
+}
+
+a{
+    color:var(--linkcolor);
+}
